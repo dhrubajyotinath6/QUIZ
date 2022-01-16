@@ -1,0 +1,82 @@
+.option {
+  padding: 10px;
+  font-size: 20px;
+  border: 3px solid black;
+  background-color: transparent;
+  border-radius: 20px;
+  margin: 0 20px;
+  width: clamp(150px, 80%, 500px);
+}
+.selected {
+  background-color: black;
+  color: aquamarine;
+}
+.question_text {
+  font-size: 30px;
+  flex: 1;
+}
+
+.quiz_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex: 1;
+}
+.options_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+  height: 70%;
+}
+.quiz_container {
+  width: clamp(200px, 80vw, 1000px);
+  height: 50vh;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px rgba(119, 119, 119, 0.637);
+  background-color: aquamarine;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .buttons > button {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 20px; 
+} */
+
+.buttons {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button_disabled  {
+  padding: 20px;
+  background-color: rgb(216, 195, 195);
+  color: rgb(30, 30, 224);
+  border: none;
+  font-size: 20px;
+
+}
+
+.button {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 20px; 
+} 
+
+
